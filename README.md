@@ -1,4 +1,4 @@
-# Configure Java 8 Date and Time Request and Response Body in @RestController
+# Rest Controller - Configure Date & Time in JSON Response
 
 Get Started with Spring
 
