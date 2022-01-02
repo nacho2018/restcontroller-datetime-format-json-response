@@ -1,4 +1,4 @@
-package io.getstarted.spring.fieldformat;
+package io.getstarted.spring.defaultformat;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/field-format")
-public class MessagingRestController {
+@RequestMapping(path = "/default-format")
+public class MessagingRestDefaultController {
 
   @GetMapping(path = "/message")
   public Message getMessage() {
